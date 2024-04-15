@@ -1,0 +1,150 @@
+
+
+ .service-status {
+    background-color: rgb(231, 230, 230);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .service-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 230, 230);
+    gap: 2rem;
+    width: 90rem;
+
+
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid #0D3273;
+    width: 17rem;
+    height: 11rem;
+    border-radius: 1.2rem;
+    background-color: white;
+    font-size: 1.2rem;
+    color: #0D3273;
+
+
+  }
+  .blue{
+    color: #0D3273;
+  }
+
+  .great{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 3rem;
+    background-color: rgb(34, 173, 34);
+    color: white;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+  }
+  .partial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 3rem;
+    background-color: #ffbf00;
+    color: white;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+  }
+
+  .no{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+  }
+  @media (max-width:1180px ) {
+    .service-status{
+      padding-top: 8rem;
+
+    }
+
+  }
+  @media (max-width:905px ) {
+    .service-status{
+      padding-top: 20rem;
+
+    }
+
+  }
+    
+
+  
+  @media (max-width:615px ) {
+    .service{
+      width: 10rem;
+      font-size: 1rem;
+    }
+    .great{
+      height: 2rem;
+      font-size: 0.9rem;
+    }
+    .partial{
+      height: 2rem;
+      font-size: 0.9rem;
+    }
+    .no{
+      height: 2rem;
+      font-size: 0.9rem;
+    }
+    .service-status{
+      padding-top: 7rem;
+    }
+    
+  }
+  @media (max-width:450px ) {
+    .service{
+      width: 7rem;
+      height: 8rem;
+      font-size: 0.9rem;
+    }
+    .great{
+      height: 1.1rem;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      width: auto;
+      font-size: 0.8rem;
+    }
+    .partial{
+      height: 1.1rem;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      width: auto;
+      font-size: 0.8rem;
+    }
+    .no{
+      height: 1.1rem;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      width: auto;
+      font-size: 0.8rem;
+    }
+    
+  }
+  @media (max-height:720px ) {
+    .service-container{
+      padding-top: 3rem;
+
+      
+    }
+
+  }

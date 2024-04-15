@@ -1,0 +1,1100 @@
+.StudentM{
+    background-color: rgb(231, 230, 230);
+    height: 100vh;
+
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 1.5rem;
+    list-style: none;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    gap: 52rem;
+    
+}
+.nav21{
+    list-style-position: initial;
+    width: 100vw;
+    background-color: #0D3273;
+    top: 0;
+    position: fixed;
+    color: white;
+}
+.nav22{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+
+}
+.navA{
+    text-decoration: none;
+    color: beige;
+    transition: ease-in-out 0.2s color;
+}
+.navA:hover{
+    text-decoration: underline 1px white ;
+    text-underline-offset: 0.15rem;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+.ticketCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35rem;
+    height: 42rem;
+    background-color: rgba(255, 255, 255, 0.691);
+    margin-top: 7rem;
+    border-radius: 2rem;
+    border: solid 1.45px #0D3273;
+}
+.ticketData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.691);
+    border: #0D3273 solid 1.45px;
+    margin-top: 7rem;
+    width: 41rem;
+    height: 42rem;
+    border-radius: 2rem;
+}
+.studentHeader{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0D3273;
+}
+.Filter{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-self: flex-start;
+    margin-top: rem;
+    margin-left: 2.5rem;
+}
+.ticketCount{
+    width: 12rem;
+    height: 2.7rem;
+    border: solid 0.17rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    color: white;
+    background-color: #0D3273;
+    font-size: 1.2rem;
+    align-self: flex-start;
+}
+.stateSelect{
+    width: 8rem;
+    height: 2.7rem;
+    border: solid 0.1rem #0D3273;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+}
+.stateData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #0D3273;
+    width: 6rem;
+    height: 1.5rem;
+    padding: 0rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    width: 36rem;
+    height: 32rem;
+    gap: 1rem;
+    overflow-y: auto;
+    
+}
+.dataContainer::-webkit-scrollbar{
+    width: 0.55rem;
+}
+.dataContainer::-webkit-scrollbar-thumb{
+    background-color: #0D3273;
+    border-radius: 2rem; 
+}
+.dataContainer::-webkit-scrollbar-track{
+    background-color: rgb(217, 217, 217);
+    border-radius: 2rem; 
+}
+
+
+.studentTickets{
+    border: #0D3273 solid 1px;
+    background-color: white;
+    border-radius: 1rem;
+    width: 33rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.ticketButton{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+
+}
+.Tbutton{
+    width: 14.5rem;
+    height: 3.2rem;
+    border: solid 0.15rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 2rem;
+    color: #0D3273;
+    background-color: white;
+    font-size: 1.15rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.Tbutton:hover{
+    background-color: #0D3273;
+    color: white;
+}
+
+.ticketInputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.ticketInput{
+    width: 30rem;
+    height: 2.2rem;
+    border: solid 0.1rem #0D3273;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+.ticketInput::placeholder{
+    padding-left: 0.5rem;
+}
+.ticketSelect{
+    width: 30.45rem;
+    height: 2.6rem;
+    border: solid 0.1rem #0D3273;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+}
+.ticketInputIssuesDescription{
+    width: 30rem;
+    height: 18.4rem;
+    max-width: 30rem;
+    min-width: 30rem;
+    min-height: 18.4rem;
+    max-height: 18.4rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: #0D3273 solid 0.1rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+}
+.ticketInputIssuesDescription::placeholder{
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+
+.ticketInputECDescription{
+    width: 30rem;
+    max-width: 30rem;
+    min-width: 30rem;
+    min-height: 22rem;
+    height: 22rem;
+    max-height: 22rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: #0D3273 solid 0.1rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+}
+.ticketInputECDescription::placeholder{
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.ticketButtonSend{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 0.5rem;
+}
+
+
+.TbuttonSend{
+    width: 7rem;
+    height: 3.2rem;
+    border: solid 0.17rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: #0D3273;
+    background-color: white;
+    font-size: 0.9rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    align-self: flex-start;
+
+}
+.TbuttonSend:hover{
+    background-color: rgb(34, 173, 34);
+    border: solid 0.17rem rgb(34, 173, 34);
+    color: white;
+}
+.TbuttonSendRed{
+    width: 7rem;
+    height: 3.2rem;
+    border: solid 0.17rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: #0D3273;
+    background-color: white;
+    font-size: 0.9rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    align-self: flex-start;
+
+}
+.TbuttonSendRed:hover{
+    background-color: red;
+    border: solid 0.17rem red;
+    color: white;
+}
+.TbuttonSend1{
+    width: 14.3rem;
+    height: 3.2rem;
+    border: solid 0.17rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #0D3273;
+    font-size: 1.2rem;
+    align-self: flex-start;
+}
+.deleteButton{
+    border: solid 0.15rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #0D3273;
+    background-color: white;
+    transition: background-color 0.1s ease, color 0.1s ease, border 0.1s ease;
+    width: 6rem;
+    height: 1.5rem;
+    padding: 0rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+}
+.deleteButton:hover{
+    background-color: red;
+    color: white;
+    border: solid 0.15rem red;
+}
+
+
+
+@media (max-width:2000px) {
+    .ticketData{
+        width: 50rem;
+        height: 50rem;
+    }
+    .dataContainer{
+        width: 45rem;
+        height: 39.5rem;
+    }
+    .studentTickets{
+        width: 42rem;
+    }
+    .ticketCard{
+        width: 50rem;
+        height: 50rem;
+    }
+    .ticketInput{
+        width: 44rem;
+    }
+    .ticketInputECDescription{
+        min-width: 44rem;
+        width: 44rem;
+        max-width: 44rem;
+        min-height: 30rem;
+        height: 30rem;
+        max-height: 30rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 44rem;
+        width: 44rem;
+        max-width: 44rem;
+        min-height: 26.4rem;
+        height: 26.4rem;
+        max-height: 26.4rem;
+    }
+    .ticketSelect{
+        width: 44rem;
+    }
+}
+@media (max-width:1700px ) {
+    .ticketData{
+        width: 44rem;
+        height: 50rem;
+    }
+    .dataContainer{
+        width: 39rem;
+        height: 39.5rem;
+    }
+    .studentTickets{
+        width: 36rem;
+    }
+    .ticketCard{
+        width: 44rem;
+        height: 50rem;
+    }
+    .ticketInput{
+        width: 38rem;
+    }
+    .ticketInputECDescription{
+        min-width: 38rem;
+        width: 38rem;
+        max-width: 38rem;
+        min-height: 30rem;
+        height: 30rem;
+        max-height: 30rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 38rem;
+        width: 38rem;
+        max-width: 38rem;
+        min-height: 26.4rem;
+        height: 26.4rem;
+        max-height: 26.4rem;
+    }
+    .ticketSelect{
+        width: 38rem;
+    }
+}
+
+
+@media (max-width:1500px ) {
+    .ticketData{
+        width: 41rem;
+        height: 50rem;
+    }
+    .dataContainer{
+        width: 36rem;
+        height: 39.5rem;
+    }
+    .studentTickets{
+        width: 33rem;
+    }
+    .ticketCard{
+        width: 36rem;
+        height: 50rem;
+    }
+    .ticketInput{
+        width: 31rem;
+    }
+    .ticketInputECDescription{
+        min-width: 31rem;
+        width: 31rem;
+        max-width: 31rem;
+        min-height: 30rem;
+        height: 30rem;
+        max-height: 30rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 31rem;
+        width: 31rem;
+        max-width: 31rem;
+        min-height: 26.4rem;
+        height: 26.4rem;
+        max-height: 26.4rem;
+    }
+    .ticketSelect{
+        width: 31.4rem;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:1330px) {
+    .nav2{
+        gap: 42rem;
+    }
+    .ticketData{
+        width: 33rem;
+    }
+    .dataContainer{
+        width: 29rem;
+        margin-left: 2rem;
+    }
+    .studentTickets{
+        width: 26rem;
+    }
+    .ticketCard{
+        width: 33rem;
+    }
+    .ticketButton{
+        width: 28rem;
+    }
+    .ticketInput{
+        width: 28rem;
+    }
+    .ticketSelect{
+        width: 28.5rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 28rem;
+        width: 28rem;
+        max-width: 28rem;
+        
+    }
+    .ticketInputECDescription{
+        min-width: 28rem;
+        width: 28rem;
+        max-width: 28rem;
+    }
+    .TbuttonSend{
+        width: 6rem;
+    }
+    .TbuttonSendRed{
+        width: 6rem;
+    }
+    .TbuttonSend1{
+        width: 13rem;
+    }
+
+}
+@media (max-width:1245px) {
+    .nav2{
+        gap: 39rem;
+    }
+
+}
+
+@media (max-width:1130px) {
+    .nav2{
+        gap: 30rem;
+    }
+    .ticketData{
+        width: 30rem;
+    }
+    .dataContainer{
+        width: 26rem;
+        margin-left: 2rem;
+    }
+    .studentTickets{
+        width: 23rem;
+        font-size: 0.9rem;
+    }
+    .ticketCard{
+        width: 29rem;
+    }
+    .ticketButton{
+        width: 24rem;
+    }
+    .ticketInput{
+        width: 24rem;
+    }
+    .ticketSelect{
+        width: 24.5rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 24rem;
+        width: 24rem;
+        max-width: 24rem;
+        
+    }
+    .ticketInputECDescription{
+        min-width: 24rem;
+        width: 24rem;
+        max-width: 24rem;
+    }
+    .TbuttonSend{
+        width: 6rem;
+    }
+    .TbuttonSendRed{
+        width: 6rem;
+    }
+    .TbuttonSend1{
+        width: 9rem;
+    }
+
+}
+@media (max-width:1055px) {
+    .nav2{
+        gap: 26rem;
+    }
+}
+
+
+
+@media (max-height:850px) {
+    .ticketData{
+        margin-top: 6.5rem;
+        height: 42rem;
+    }
+    .dataContainer{
+        height: 31.5rem;
+    }
+
+    .ticketCard{
+        margin-top: 6.5rem;
+        height: 42rem;
+    }
+
+    .ticketInputECDescription{
+        min-height: 22rem;
+        height: 22rem;
+        max-height: 22rem;
+    }
+    .ticketInputIssuesDescription{
+
+        min-height: 18.4rem;
+        height: 18.4rem;
+        max-height: 18.4rem;
+    }
+}
+
+@media (max-height:720px) {
+
+    .nav2{
+        height: 1.7rem;
+    }
+
+    .ticketCard{
+        margin-top: 5.5rem;
+        height: 38rem;
+    }
+
+    .ticketInputECDescription{
+        height: 18rem;
+        min-height: 18rem;
+        max-height: 18rem;
+    }
+    .ticketInputIssuesDescription{
+        height: 14.4rem;
+        min-height: 14.4rem;
+        max-height: 14.4rem;
+    }
+
+    .ticketData{
+        margin-top: 5.5rem;
+        height: 38rem;
+    }
+    .dataContainer{
+        height: 28rem;
+    }
+
+    
+}
+
+@media (max-width:1000px) {
+    .nav2{
+        gap: 24rem;
+
+    }
+
+    .StudentM{
+        height: 200vh;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .ticketData{
+        margin-top: 2rem;
+        width: 49rem;
+    }
+    .dataContainer{
+        width: 45rem;
+        margin-left: 2rem;
+    }
+    .studentTickets{
+        width: 42rem;
+        font-size: 0.9rem;
+    }
+    .ticketCard{
+        width: 49rem;
+        height: 30rem;
+    }
+    .ticketButton{
+        width: 40rem;
+
+    }
+    .Tbutton{
+        width: 24rem;
+        font-size: 1.3rem;
+    }
+    .ticketInput{
+        width: 42rem;
+        height: 1.9rem;
+    }
+    .ticketSelect{
+        width: 42.45rem;
+        height: 2.2rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 42rem;
+        width: 42rem;
+        max-width: 42rem;
+        height: 7.4rem;
+        min-height: 7.4rem;
+        max-height: 7.4rem;
+        
+    }
+    .ticketInputECDescription{
+        min-width: 42rem;
+        width: 42rem;
+        max-width: 42rem;
+        height: 10.6rem;
+        min-height: 10.6rem;
+        max-height: 10.6rem;
+    }
+    .TbuttonSend{
+        width: 8rem;
+        font-size: 1.1rem;
+    }
+    .TbuttonSendRed{
+        width: 8rem;
+        font-size: 1.1rem;
+    }
+    .TbuttonSend1{
+        width: 11rem;
+    }
+    .stateSelect{
+        height: 2.2rem;
+        width: 5.7rem;
+    }
+}
+@media (max-width:850px) {
+    .nav2{
+        gap: 20rem;
+
+    }
+}
+
+@media (max-width:830px) {
+    .nav2{
+        gap: 14rem;
+    }
+ 
+    
+    .ticketData{
+        margin-top: 2rem;
+        width: 40rem;
+    }
+    .dataContainer{
+        width: 36rem;
+        margin-left: 2rem;
+    }
+    .studentTickets{
+        width: 33rem;
+        font-size: 0.9rem;
+    }
+    .ticketCard{
+        width: 40rem;
+        height: 30rem;
+    }
+    .ticketButton{
+        width: 33rem;
+
+    }
+    .Tbutton{
+        width: 24rem;
+        font-size: 1.3rem;
+    }
+    .ticketInput{
+        width: 33rem;
+        height: 1.9rem;
+    }
+    .ticketSelect{
+        width: 33.45rem;
+        height: 2.2rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 33rem;
+        width: 33rem;
+        max-width: 33rem;
+        height: 7.4rem;
+        min-height: 7.4rem;
+        max-height: 7.4rem;
+        
+    }
+    .ticketInputECDescription{
+        min-width: 33rem;
+        width: 33rem;
+        max-width: 33rem;
+        height: 10.6rem;
+        min-height: 10.6rem;
+        max-height: 10.6rem;
+    }
+    .TbuttonSend{
+        width: 7rem;
+        font-size: 1rem;
+    }
+    .TbuttonSendRed{
+        width: 7rem;
+        font-size: 1rem;
+    }
+    .TbuttonSend1{
+        width: 9rem;
+    }
+
+}
+
+
+@media (max-width:690px) {
+    .nav2{
+        gap: 10rem;
+        font-size: 0.9rem;
+    }
+    .nav22{
+        font-size: 0.9rem;
+    }
+ 
+    
+    .ticketData{
+        margin-top: 2rem;
+        width: 34rem;
+    }
+    .dataContainer{
+        width: 30rem;
+        margin-left: 2rem;
+    }
+    .studentTickets{
+        width: 27rem;
+        font-size: 0.9rem;
+    }
+    .ticketCard{
+        width: 34rem;
+        height: 29rem;
+    }
+    .ticketButton{
+        width: 27rem;
+
+    }
+    .Tbutton{
+        width: 14rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .ticketInput{
+        width: 27rem;
+        height: 1.9rem;
+    }
+    .ticketSelect{
+        width: 27.45rem;
+        height: 2.2rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 27rem;
+        width: 27rem;
+        max-width: 27rem;
+        height: 7.4rem;
+        min-height: 7.4rem;
+        max-height: 7.4rem;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        
+    }
+    .ticketInputECDescription{
+        min-width: 27rem;
+        width: 27rem;
+        max-width: 27rem;
+        height: 10.6rem;
+        min-height: 10.6rem;
+        max-height: 10.6rem;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+    .TbuttonSend{
+        width: 6rem;
+        font-size: 1rem;
+        height: 2.5rem;
+    }
+    .TbuttonSendRed{
+        width: 6rem;
+        font-size: 1rem;
+        height: 2.5rem;
+    }
+    .TbuttonSend1{
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+}
+
+
+@media (max-width:590px) {
+    .nav2{
+        gap: 2rem;
+    }
+ 
+    
+    .ticketData{
+        margin-top: 2rem;
+        width: 28rem;
+    }
+    .dataContainer{
+        width: 24rem;
+        margin-left: 2rem;
+    }
+    .studentTickets{
+        width: 21rem;
+        font-size: 0.9rem;
+    }
+    .ticketCard{
+        width: 28rem;
+        height: 29rem;
+    }
+    .ticketButton{
+        width: 23rem;
+
+    }
+    .Tbutton{
+        width: 12rem;
+
+    }
+    .ticketInput{
+        width: 23rem;
+        height: 1.9rem;
+    }
+    .ticketSelect{
+        width: 23.45rem;
+        height: 2.2rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 23rem;
+        width: 23rem;
+        max-width: 23rem;
+
+        
+    }
+    .ticketInputECDescription{
+        min-width: 23rem;
+        width: 23rem;
+        max-width: 23rem;
+
+    }
+    .TbuttonSend{
+        width: 5rem;
+
+    }
+    .TbuttonSendrED{
+        width: 5rem;
+
+    }
+    .TbuttonSend1{
+        width: 7rem;
+        font-size: 0.9rem;
+
+    }
+
+}
+
+@media (max-width:490px) {
+    .nav2{
+        gap: 3rem;
+        font-size: 0.71rem;
+    }
+    .nav22{
+        font-size: 0.71rem;
+    }
+ 
+    
+    .ticketData{
+        margin-top: 2rem;
+        width: 24rem;
+    }
+    .dataContainer{
+        width: 20rem;
+        margin-left: 2rem;
+    }
+    .studentTickets{
+        width: 17rem;
+        font-size: 0.8rem;
+    }
+    .ticketCard{
+        width: 24rem;
+        height: 29rem;
+    }
+    .ticketButton{
+        width: 19rem;
+
+    }
+    .Tbutton{
+        width: 9rem;
+        font-size: 0.8rem;
+
+    }
+    .ticketInput{
+        width: 19rem;
+        height: 1.9rem;
+    }
+    .ticketSelect{
+        width: 19.45rem;
+        height: 2.2rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 19rem;
+        width: 19rem;
+        max-width: 19rem;
+
+        
+    }
+    .ticketInputECDescription{
+        min-width: 19rem;
+        width: 19rem;
+        max-width: 19rem;
+
+    }
+    .TbuttonSend{
+        width: 4rem;
+        font-size: 0.9rem;
+
+    }
+    .TbuttonSendRed{
+        width: 4rem;
+        font-size: 0.9rem;
+
+    }
+    .TbuttonSend1{
+        width: 6rem;
+        font-size: 0.8rem;
+
+    }
+
+}
+@media (max-width:430px) {
+    .nav2{
+        gap: 1rem;
+    }
+    .nav22{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:410px) {
+
+ 
+    
+    .ticketData{
+        margin-top: 2rem;
+        width: 20rem;
+    }
+    .dataContainer{
+        width: 17.5rem;
+        margin-left: 1.5rem;
+    }
+    .studentTickets{
+        width: 14.5rem;
+        font-size: 0.7rem;
+    }
+    .ticketCard{
+        width: 20rem;
+        height: 29rem;
+    }
+    .ticketButton{
+        width: 16.5rem;
+
+    }
+    .Tbutton{
+        width: 14rem;
+        font-size: 0.7rem;
+
+    }
+    .ticketInput{
+        width: 17rem;
+        height: 1.9rem;
+    }
+    .ticketSelect{
+        width: 17.45rem;
+        height: 2.2rem;
+    }
+    .ticketInputIssuesDescription{
+        min-width: 17rem;
+        width: 17rem;
+        max-width: 17rem;
+
+        
+    }
+    .ticketInputECDescription{
+        min-width: 17rem;
+        width: 17rem;
+        max-width: 17rem;
+
+    }
+    .TbuttonSend{
+        width: 4rem;
+        font-size: 0.7rem;
+
+    }
+    .TbuttonSendRed{
+        width: 4rem;
+        font-size: 0.7rem;
+
+    }
+    .TbuttonSend1{
+        width: 6rem;
+        font-size: 0.8rem;
+
+    }
+    .stateData{
+        font-size: 0.55rem;
+        width: 4.2rem;
+        height: 1.2rem;
+
+    }
+
+}

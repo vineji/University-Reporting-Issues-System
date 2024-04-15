@@ -1,0 +1,371 @@
+
+
+
+.adminMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(231, 230, 230);
+    height: 100vh;
+}
+
+.inventoryHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.ECFilter{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2.5rem;
+}
+
+.ticketInventory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.691);
+    border: #0D3273 solid 1.45px;
+    margin-top: 7rem;
+    width: 41rem;
+    height: 42rem;
+    border-radius: 2rem;
+}
+
+.replyTicket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 37rem;
+    height: 42rem;
+    background-color: rgba(255, 255, 255, 0.691);
+    margin-top: 7rem;
+    border-radius: 2rem;
+    border: solid 1.45px #0D3273;
+}
+.inventoryC{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 0rem;
+    margin-left: 2.5rem;
+    width: 36rem;
+    height: 34.5rem;
+    gap: 1rem;
+    overflow-y: auto;
+}
+.stateDataAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #0D3273;
+    width: auto;
+    height: 1.5rem;
+    padding-left:  0.5rem;
+    padding-right:  0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.85rem;
+}
+
+.inventoryC::-webkit-scrollbar{
+    width: 0.55rem;
+}
+.inventoryC::-webkit-scrollbar-thumb{
+    background-color: #0D3273;
+    border-radius: 2rem; 
+}
+.inventoryC::-webkit-scrollbar-track{
+    background-color: rgb(217, 217, 217);
+    border-radius: 2rem; 
+}
+.adminTickets{
+    border: #0D3273 solid 1px;
+    background-color: white;
+    border-radius: 1rem;
+    width: 33rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.lastRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.replyButton{
+    border: solid 0.15rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #0D3273;
+    background-color: white;
+    transition: background-color 0.1s ease, color 0.1s ease;
+    width: 6rem;
+    height: 1.5rem;
+    padding: 0rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+
+}
+.rowClear{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.clearButton{
+    border: solid 0.15rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-end;
+    text-decoration: none;
+    color: #0D3273;
+    background-color: white;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    width: 8rem;
+    height: 2.7rem;
+    padding: 0rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+}
+.clearButton:hover{
+    background-color: rgb(34, 173, 34);
+    border: rgb(34, 173, 34)solid 0.15rem;
+    color: white;
+}
+.clearButtonRed{
+    border: solid 0.15rem #0D3273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-end;
+    text-decoration: none;
+    color: #0D3273;
+    background-color: white;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    width: 6rem;
+    height: 2.7rem;
+    padding: 0rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+}
+.clearButtonRed:hover{
+    background-color: red;
+    border: red solid 0.15rem;
+    color: white;
+}
+.adminTicket1{
+
+    background-color: white;
+    border-radius: 1rem;
+    width: 29rem;
+    height: 12rem;
+    padding-right: 1.15rem;
+    overflow-y: auto;
+    font-size: 1.15rem;
+
+}
+.adminBorder{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: #0D3273 solid 1.5px;
+    background-color: white;
+
+}
+.adminTicket1Head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.adminTicket1::-webkit-scrollbar{
+    width: 0.55rem;
+    height: 1rem;
+}
+.adminTicket1::-webkit-scrollbar-thumb{
+    background-color: #0D3273;
+    border-radius: 2rem; 
+}
+.adminTicket1::-webkit-scrollbar-track{
+    background-color: rgb(217, 217, 217);
+    border-radius: 2rem; 
+}
+.noTicket{
+    background-color: #0D3273;
+    border-radius: 1rem;
+    width: 29rem;
+    height: 12rem;
+    padding-right: 1.15rem;
+    overflow-y: auto;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noTicketH{
+    font-weight: 400;
+}
+.noTicketBorder{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: #0D3273 solid 1.5px;
+    background-color: #0D3273;
+
+}
+.replyText{
+    width: 31rem;
+    max-width: 31rem;
+    min-width: 31rem;
+    min-height: 17rem;
+    height: 17rem;
+    max-height: 17rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: #0D3273 solid 0.1rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+}
+.replyText::placeholder{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+.replyButton:hover{
+    background-color: #0D3273;
+    color: white;
+}
+
+.sendReply{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.clearDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+}
+.adminSelect{
+    width: 8rem;
+    height: 2.7rem;
+    border: solid 0.1rem #0D3273;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:1300px) {
+    .ticketInventory{
+        width: 35rem;
+    }
+    .replyTicket{
+        width: 35rem;
+    }
+    .adminTickets{
+        width: 27rem;
+        font-size: 0.9rem;
+    }
+    .inventoryC{
+        width: 30rem;
+    }
+
+}
+@media (max-width:1179px) {
+    .ticketInventory{
+        width: 32rem;
+    }
+    .replyTicket{
+        width: 30rem;
+    }
+    .adminTickets{
+        width: 24rem;
+        font-size: 0.9rem;
+    }
+    .inventoryC{
+        width: 27rem;
+    }
+    .noTicket{
+        width: 24rem;
+    }.noTicketBorder{
+        width: 25rem;
+
+    }
+    .adminTicket1{
+        width: 24rem;
+    }
+    .adminBorder{
+        width: 25rem;
+
+    }
+    .clearButton{
+        width: 7rem;
+        height: 2.3rem;
+        font-size: 1rem;
+    }
+    .clearButtonRed{
+        font-size: 1rem;
+        height: 2.3rem;
+    }
+    .adminSelect{
+        height: 2.3rem;
+    }
+    .rowClear{
+        width: 26rem;
+        margin-left: 0.5rem;
+
+    }
+    .replyText{
+        min-width: 25.8rem;
+        width: 25.8rem;
+        max-width: 25.8rem;
+
+    }
+}
+
+
+
+
+@media (max-height:720px) {
+    .ticketInventory{
+        height: 38rem;
+        margin-top: 5.5rem;
+    }
+    .replyTicket{
+        height: 38rem;
+        margin-top: 5.5rem;
+    }
+    .inventoryC{
+        height: 31rem;
+    }
+    .noTicket{
+        height: 10rem;
+    }
+    .adminTicket1{
+        height: 10rem;
+        font-size: 0.9rem;
+    }
+    .replyText{
+        min-height: 15.5rem;
+        height: 15.5rem;
+        max-height: 15.5rem;
+    }
+    
+
+}
