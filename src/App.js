@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <nav className='nav12'> 
         <ul className='nav1'>
-          <li>Queen Mary Issues Portal</li>
+          <li>Issues Portal</li>
         </ul>
       </nav>
       <Login/>
